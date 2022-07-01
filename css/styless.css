@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
@@ -294,15 +294,15 @@ body {
 
 
 .post {
-    background: -webkit-linear-gradient(180deg, rgb(1, 104, 170) 52%, rgb(15, 73, 146) 100%);
-    background: -moz-linear-gradient(180deg, rgb(1, 104, 170) 52%, rgb(15, 73, 146) 100%);
-    background: linear-gradient(180deg, rgb(1, 104, 170) 52%, rgb(15, 73, 146) 100%);
+    background: -webkit-linear-gradient(180deg, rgb(1, 104, 170) 52%, rgb(255, 148, 0) 100%);
+    background: -moz-linear-gradient(180deg, rgb(1, 104, 170) 52%, rgb(255, 148, 0) 100%);
+    background: linear-gradient(180deg, rgb(1, 104, 170) 52%, rgb() 100%);
     color: aliceblue;
     margin: 0
 }
 
 .post p {
-    padding-top: 0px;
+    padding-top: 10px;
     font-size: 24px;
     text-align: center;
 }
@@ -344,9 +344,9 @@ iframe {
 header {
     display: table;
     padding: 0em 5%;
-    background: -webkit-linear-gradient(180deg, rgb(246, 209, 46) 24%, rgb(254, 164, 0) 96%, rgb(1, 104, 170) 100%);
-    background: -moz-linear-gradient(180deg, rgb(246, 209, 46) 24%, rgb(254, 164, 0) 96%, rgb(1, 104, 170) 100%);
-    background: linear-gradient(180deg, rgb(246, 209, 46) 24%, rgb(254, 164, 0) 96%, rgb(1, 104, 170) 100%);
+background: -webkit-linear-gradient(180deg, rgb(246, 209, 46) 79%, rgb(255, 148, 0));
+background: -moz-linear-gradient(180deg, rgb(246, 209, 46) 79%, rgb(255, 148, 0));
+background: linear-gradient(180deg, rgb(246, 209, 46) 79%, rgb(255, 148, 0));
     color: black;
     width: 100%;
     -moz-box-sizing: border-box;
