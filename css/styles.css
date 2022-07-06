@@ -202,6 +202,9 @@ content-box;
 display: block;
 } 
 @media screen and (max-width: 870px) {
+        body p {
+    font-size: 16px;
+}
     header {
         height: auto;
     }
@@ -249,14 +252,10 @@ footer article{
     .box {
         padding: 10px 10px 10px;
     }
-    body p {
-    font-size: 18px;
-}
+
 .mod {
     font-size: 20px;
 }
-}
-
 }
 
 @media screen and (max-width: 472px) {
