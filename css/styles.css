@@ -9,6 +9,9 @@ p {
     margin-bottom: 0;
     font-size: 22px;
 }
+.mod {
+    font-size: 24px;
+}
 
    a {
     color: #0168aa; /* Цвет ссылок */
@@ -246,8 +249,11 @@ footer article{
     .box {
         padding: 10px 10px 10px;
     }
-    p {
+    body p {
     font-size: 18px;
+}
+.mod {
+    font-size: 20px;
 }
 }
 
